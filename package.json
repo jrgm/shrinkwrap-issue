@@ -1,0 +1,16 @@
+{
+  "name": "shrinkwrap-issue",
+  "version": "1.0.0",
+  "description": "shrinkwrap omits devDep that is a direct dependency of top-level dependency",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrgm/shrinkwrap-issue.git"
+  },
+  "dependencies": {
+    "fxa-jwtool": "0.7.1"
+  },
+  "devDependencies": {
+    "pem-jwk": "1.5.1"
+  }
+}
